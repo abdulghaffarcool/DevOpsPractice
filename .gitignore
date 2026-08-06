@@ -1,0 +1,56 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+packages/
+
+# Docker
+docker-compose.override.yml
+
+# User secrets
+secrets.json
+
+# ASP.NET
+appsettings.Development.json
+
+# EF
+Migrations/*.Designer.cs
+
+# Test Results
+TestResults/
+
+# Coverage
+coverage/
+
+# Publish
+publish/
+
+# Azure
+.azure/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Kubernetes
+*.local.yaml

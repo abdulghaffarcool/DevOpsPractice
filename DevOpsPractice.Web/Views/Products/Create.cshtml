@@ -1,0 +1,21 @@
+﻿@model DevOpsPractice.Web.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+<form asp-action="Create" method="post">
+
+    <partial name="_ProductForm" model="Model" />
+
+    <button class="btn btn-success">Save</button>
+
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
