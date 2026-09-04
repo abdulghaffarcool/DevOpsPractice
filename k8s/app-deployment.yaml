@@ -6,8 +6,6 @@ metadata:
   namespace: devopspractice
 
 spec:
-  replicas: 1
-
   selector:
     matchLabels:
       app: devopspractice-web
