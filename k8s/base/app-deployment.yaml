@@ -19,7 +19,7 @@ spec:
       containers:
       - name: devopspractice-web
 
-        image: abdulghaffar2455/devopspractice:a917044066a75f609800bd1ee1b3b6656201ea40
+        image: abdulghaffar2455/devopspractice:799f731310d6249a6918386d10a9b85122a33d3d
 
         imagePullPolicy: Always
 
